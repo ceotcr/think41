@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
@@ -7,13 +5,6 @@ export default function Home() {
       <p className="mt-4 text-lg">
         Navigate to the <a href="/book" className="text-blue-600 underline">Booking Page</a> to get started.
       </p>
-      <Image
-        src="/images/appointment.png"
-        alt="Appointment Booking"
-        width={500}
-        height={300}
-        className="mt-8 rounded-lg shadow-lg"
-      />
     </main>
   );
 }
